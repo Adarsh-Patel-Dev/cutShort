@@ -1,0 +1,22 @@
+.flex-1{
+    border: 1px solid var(--GRAY);
+    border-radius: 5px;
+    padding: var(--lg);
+    height: max-content;
+    transition: 1s;
+}
+
+.flex-1:hover{
+    transition: 1s;
+    cursor: pointer;
+    border-color: var(--PRIMARY-COLOR);
+}
+
+.flex-1:hover .icon{
+    color: var(--PRIMARY-COLOR);
+}
+
+
+.icon{
+    font-size: var(--md);
+}

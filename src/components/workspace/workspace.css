@@ -1,0 +1,23 @@
+
+.input-box{
+    border-radius: 5px;
+    border: thin solid var(--GRAY);
+    font-size: var(--md); 
+}
+
+.input-msg {
+    color:gray;
+    padding: var(--sm);
+    background-color: rgba(231, 231, 231, 0.665);
+    border-right: thin solid var(--GRAY);
+    border-radius: 5px 0 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.input-field{
+    width: 100%;
+    padding: var(--sm);
+    border:transparent
+}

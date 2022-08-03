@@ -1,0 +1,11 @@
+.done-icon{
+    font-size: 1.5rem;
+    background-color: var(--PRIMARY-COLOR);
+    padding:1.5rem;
+    border-radius:50%;
+    aspect-ratio: 1/1;
+    width:1.5rem;
+    height:1.5rem;
+    color:var(--WHITE);
+    margin: auto;
+}

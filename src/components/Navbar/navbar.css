@@ -1,0 +1,24 @@
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sm);
+    padding-bottom: var(--lg);
+    padding-top: var(--xxl);
+}
+
+.logo-img-container{
+    width: var(--xl);
+    height: var(--xl); 
+}
+
+.brand-logo-img{
+ width: 100%;
+    height: 100%;
+}
+
+.logo-title{
+    font-size: var(--lg);
+    font-weight: 700;
+    color: var(--BLACK);
+}
