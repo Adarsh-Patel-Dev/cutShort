@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
-import Signup from "./components/signup/Signup";
+import { Signup } from "./components/signup/Signup";
 import { HorizontalStepper } from "./components/stepper/HorizontalStepper";
 import { Success } from "./components/success/Success";
 import { WorkspaceSetup } from "./components/workspace-setup/WorkspaceSetup";
