@@ -1,5 +1,5 @@
 import React from 'react'
-//import { MdDone } from "react-icons/md";
+import { MdDone } from "react-icons/md";
 import "./success.css";
 
 function Success() {
@@ -7,7 +7,7 @@ function Success() {
     <section className="main-container center ">
       <div className="flex flex-col gap-md pad-xl">
        <div className='done-icon'>
-      {/* <MdDone/> */} 
+     <MdDone/> 
        </div>
         <h3 className="main-heading">Congratulations, Eren!</h3>
         <p className="sub-heading">
