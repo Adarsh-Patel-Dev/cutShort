@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import "./signup.css"
 
 function Signup() {
-  const { step, setStep } = useStepContext()
+  const { setStep } = useStepContext()
   const navigate = useNavigate()
   return (
     <section className='main-container center'>
